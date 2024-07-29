@@ -2,6 +2,7 @@ const express = require('express');
 require('express-async-errors');
 const cors = require('cors');
 const mongoose = require('mongoose');
+const path = require('path');
 const app = express();
 
 // Configuration and Logger
@@ -38,7 +39,6 @@ app.use(middleware.tokenExtractor);
 app.use(express.static('dist')); // Serves your frontend application after build
 app.use('/uploads', express.static('uploads')); // Serves uploaded files
 
-
 // API routes
 app.use('/api/signup', signupRouter);
 app.use('/api/login', loginRouter);
@@ -51,6 +51,11 @@ app.use('/api/users', usersRouter);
 if (process.env.NODE_ENV === 'test') {
     app.use('/api/testing', testingRouter);
 }
+
+// Catch-all route for client-side routing
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist', 'index.html'));
+});
 
 app.use(middleware.unknownEndpoint);
 app.use(middleware.errorHandler);
