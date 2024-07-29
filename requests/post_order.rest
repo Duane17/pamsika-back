@@ -1,0 +1,11 @@
+POST http://localhost:3004/api/orders
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZleEBleGFtcGxlLmNvbSIsImlkIjoiNjY5ZTM1OTJhZWUwNjAzYzdjY2JmOWJhIiwiaWF0IjoxNzIxNzQ3NzE4fQ.2g5UHyalr7SvU1DH_2EZhUiJGnCzOffZpk3pD9Yhqb8
+
+{
+  "serviceProviderId": "669f6901c00a9b3599ea9b6d",
+  "serviceId": "669f6959c00a9b3599ea9b71",
+  "price": 10000,
+  "quantity": 3,
+  "paymentMethod": "credit card"
+}

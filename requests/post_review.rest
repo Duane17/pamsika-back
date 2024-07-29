@@ -1,0 +1,10 @@
+POST http://localhost:3004/api/reviews
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZleEBleGFtcGxlLmNvbSIsImlkIjoiNjY5ZTM1OTJhZWUwNjAzYzdjY2JmOWJhIiwiaWF0IjoxNzIxNzIzNDQ0fQ.P0C08EVaR205zPEFYClwRkbLwHilmxfyEyn9nNAmwNA
+
+{
+  "revieweeId": "669f6901c00a9b3599ea9b6d",
+  "serviceId": "669f6959c00a9b3599ea9b71",
+  "rating": 5,
+  "comment": "Outstanding service and excellent communication. Highly recommend!"
+}

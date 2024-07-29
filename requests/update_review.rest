@@ -1,0 +1,8 @@
+PUT http://localhost:3004/api/reviews/669f6b68a364664b7d7165b7
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZleEBleGFtcGxlLmNvbSIsImlkIjoiNjY5ZTM1OTJhZWUwNjAzYzdjY2JmOWJhIiwiaWF0IjoxNzIxNjc5NjYyfQ.BaI2NrnHGHv4aQpTz5BLV5k5xQbgkHNU8w8T1MvF2kc
+
+{
+  "rating": 5,
+  "comment": "Updated review comment: Exceptional service with great attention to detail!"
+}

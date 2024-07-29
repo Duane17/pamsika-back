@@ -1,0 +1,8 @@
+PUT http://localhost:3004/api/orders/669fc91bd335b0effe2caada
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZleEBleGFtcGxlLmNvbSIsImlkIjoiNjY5ZTM1OTJhZWUwNjAzYzdjY2JmOWJhIiwiaWF0IjoxNzIxNzQ3NzE4fQ.2g5UHyalr7SvU1DH_2EZhUiJGnCzOffZpk3pD9Yhqb8
+
+{
+  "status": "in progress",
+  "paymentMethod": "PayPal"
+}

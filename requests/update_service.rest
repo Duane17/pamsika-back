@@ -1,0 +1,12 @@
+PUT http://localhost:3004/api/services/669ec529cd693fa5ade6d30a
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZleEBleGFtcGxlLmNvbSIsImlkIjoiNjY5ZTM1OTJhZWUwNjAzYzdjY2JmOWJhIiwiaWF0IjoxNzIxNjc5NjYyfQ.BaI2NrnHGHv4aQpTz5BLV5k5xQbgkHNU8w8T1MvF2kc
+
+{
+    "newPortfolioItem": {
+        "title": "Advanced Analytics Project",
+        "description": "This project involved complex data analysis and visualization.",
+        "imageUrl": "http://example.com/path-to-image.jpg",
+        "link": "http://example.com/project-link"
+    }
+}

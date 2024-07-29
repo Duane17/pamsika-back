@@ -1,0 +1,13 @@
+POST http://localhost:3004/api/services
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR1YW5lZ2FkYW1hQGdtYWlsLmNvbSIsImlkIjoiNjZhMmI0NzVmOGVmNGQzNTMyM2ZkMDc2IiwiaWF0IjoxNzIyMDcyNTA0fQ.L6NiF7iMw27wx5GYxzse58rw0hxU1JCfGbIjcGpOxvQ
+
+{
+    "title": "Data analysis",
+    "description": "Description",
+    "category": "Analytics",
+    "subcategory": "Full Stack",
+    "price": 1500000,
+    "currency": "MWK",
+    "duration": "2 weeks"
+}

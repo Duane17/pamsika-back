@@ -1,0 +1,13 @@
+PUT http://localhost:3004/api/users/669e3592aee0603c7ccbf9ba
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZleEBleGFtcGxlLmNvbSIsImlkIjoiNjY5ZTM1OTJhZWUwNjAzYzdjY2JmOWJhIiwiaWF0IjoxNzIxNjU2NDcwfQ.CxkdH3qUfKWJdsokRNyTaOxyFY6YpAsmbXbE4D2xQH4
+
+{
+    "newPortfolioItem": {
+        "title": "Project2",
+        "description": "A detailed description of a new project.",
+        "imageUrl": "http://example.com/image.png",
+        "link": "http://example.com/project"
+    },
+    "newSkill": "Data Analysis"
+}
